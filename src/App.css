@@ -642,6 +642,39 @@ body, html, #root {
   gap: 30px;
 }
 
+/* Tablet View */
+@media (max-width: 1024px) {
+  .services-cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+  .services-cards {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .service-card {
+    padding: 30px 20px;
+    margin: 0 10px;
+  }
+}
+
+/* Small Mobile View */
+@media (max-width: 480px) {
+  .services-cards {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  
+  .service-card {
+    padding: 25px 15px;
+    margin: 0 5px;
+  }
+}
 
 .service-card {
   background: white;

@@ -362,41 +362,13 @@ function App() {
         <h3>Financial Auditing</h3>
         <p>Detailed analysis and verification of financial statements with precision and expertise.</p>
         <ul>
+		<li><i className="fas fa-check"></i> Accounting & Bookkeeping</li>
           <li><i className="fas fa-check"></i> Financial Statement Review</li>
           <li><i className="fas fa-check"></i> Transaction Verification</li>
           <li><i className="fas fa-check"></i> Asset Valuation</li>
         </ul>
       </div>
-
-      {/* Compliance Check */}
-      <div className="service-card">
-        <div className="service-icon">
-          <i className="fas fa-shield-alt"></i>
-        </div>
-        <h3>Compliance Check</h3>
-        <p>Ensure your business meets regulatory and statutory requirements seamlessly.</p>
-        <ul>
-          <li><i className="fas fa-check"></i> Regulatory Compliance</li>
-          <li><i className="fas fa-check"></i> Policy Assessment</li>
-          <li><i className="fas fa-check"></i> Documentation Review</li>
-        </ul>
-      </div>
-
-      {/* Risk Assessment */}
-      <div className="service-card">
-        <div className="service-icon">
-          <i className="fas fa-exclamation-triangle"></i>
-        </div>
-        <h3>Risk Assessment</h3>
-        <p>Identify and mitigate financial risks effectively with proactive strategies.</p>
-        <ul>
-          <li><i className="fas fa-check"></i> Risk Analysis</li>
-          <li><i className="fas fa-check"></i> Mitigation Planning</li>
-          <li><i className="fas fa-check"></i> Continuous Monitoring</li>
-        </ul>
-      </div>
-
-      {/* Income Tax */}
+	   {/* Income Tax */}
       <div className="service-card">
         <div className="service-icon">
           <i className="fas fa-receipt"></i>
@@ -423,6 +395,10 @@ function App() {
         </ul>
       </div>
 
+
+      
+
+     
       {/* TDS Management */}
       <div className="service-card">
         <div className="service-icon">
@@ -473,9 +449,39 @@ function App() {
         <h3>Registration Services</h3>
         <p>Complete documentation and registration services for businesses.</p>
         <ul>
-          <li><i className="fas fa-check"></i> New PAN Card Registration</li>
-          <li><i className="fas fa-check"></i> Company Registration</li>
-          <li><i className="fas fa-check"></i> Accounting & Bookkeeping</li>
+		     <li><i className="fas fa-check"></i> Company Registration</li>
+			 <li><i className="fas fa-check"></i> Partnership Deed Registration</li>	
+          <li><i className="fas fa-check"></i> New PAN and TAN Registration</li>
+          <li><i className="fas fa-check"></i> MSME Registration</li>
+		  <li><i className="fas fa-check"></i> ESI & PF Registration</li>
+
+        </ul>
+      </div>
+	  {/* Compliance Check */}
+      <div className="service-card">
+        <div className="service-icon">
+          <i className="fas fa-shield-alt"></i>
+        </div>
+        <h3>Compliance Check</h3>
+        <p>Ensure your business meets regulatory and statutory requirements seamlessly.</p>
+        <ul>
+          <li><i className="fas fa-check"></i> Regulatory Compliance</li>
+          <li><i className="fas fa-check"></i> Policy Assessment</li>
+          <li><i className="fas fa-check"></i> Documentation Review</li>
+        </ul>
+      </div>
+
+      {/* Risk Assessment */}
+      <div className="service-card">
+        <div className="service-icon">
+          <i className="fas fa-exclamation-triangle"></i>
+        </div>
+        <h3>Risk Assessment</h3>
+        <p>Identify and mitigate financial risks effectively with proactive strategies.</p>
+        <ul>
+          <li><i className="fas fa-check"></i> Risk Analysis</li>
+          <li><i className="fas fa-check"></i> Mitigation Planning</li>
+          <li><i className="fas fa-check"></i> Continuous Monitoring</li>
         </ul>
       </div>
 
@@ -484,24 +490,25 @@ function App() {
 </section>
 
 
-      {/* Location Section */}
-      <section id="location" className="section location" ref={locationRef}>
-        <div className="container">
-          <h2 className="section-title">Our Location</h2>
-          <div className="map-container">
-            <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15567.862368124086!2d77.80770593255528!3d12.715667682806327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae70a300af4247%3A0xbc41496913dbb3c4!2sDinnur%2C%20Tamil%20Nadu%20635109!5e0!3m2!1sen!2sin!4v1758800891616!5m2!1sen!2sin" 
-              width="100%" 
-              height="450" 
-              style={{border: 0}} 
-              allowFullScreen="" 
-              loading="lazy" 
-              referrerPolicy="no-referrer-when-downgrade"
-              title="Subramani Associates Location"
-            ></iframe>
-          </div>
-        </div>
-      </section>
+{/* Location Section */}
+<section id="location" className="section location" ref={locationRef}>
+  <div className="container">
+    <h2 className="section-title">Our Location</h2>
+    <div className="map-container">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2023.1943748494805!2d77.8201816657244!3d12.714067383684533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae70a415037bc9%3A0xd099a4963a9343ab!2sPrakash%20Nagar%2C%20Dinnur%2C%20Hosur%2C%20Tamil%20Nadu%20635109!5e1!3m2!1sen!2sin!4v1759568722600!5m2!1sen!2sin"
+        width="100%"
+        height="450"
+        style={{ border: 0 }}
+        allowFullScreen
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+        title="Subramani Associates Location"
+      ></iframe>
+    </div>
+  </div>
+</section>
+
 
      {/* Contact Section */}
 <section id="contact" className="section contact" ref={contactRef}>
@@ -593,13 +600,17 @@ function App() {
     <div className="footer-section">
       <h3>Contact Info</h3>
       <ul>
-        <li className="clickable" onClick={handleWhatsAppClick}>
-          <i className="fab fa-whatsapp"></i> +91 97915 62237
-        </li>
-        <li className="clickable" onClick={handleEmailClick}>
-          <i className="fas fa-envelope"></i> subramaniassociateshsr@gmail.com
-        </li>
-      </ul>
+  <li className="clickable" onClick={handleWhatsAppClick}>
+    <i className="fab fa-whatsapp"></i> +91 97915 62237, +91 99654 33311
+  </li>
+  <li className="clickable" onClick={handleEmailClick}>
+    <i className="fas fa-envelope"></i> subramaniassociateshsr@gmail.com
+  </li>
+  <li className="clickable">
+    <i className="fas fa-map-marker-alt"></i> No.47/5, 1st floor, Prakash Nagar, Denkanikottai Main Road, Dinnur, Hosur-635109
+  </li>
+</ul>
+
     </div>
   </div>
   <div className="footer-bottom">
