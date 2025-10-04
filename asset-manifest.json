@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Subramani-Associates/static/css/main.72a4491f.css",
+    "main.js": "/Subramani-Associates/static/js/main.78e219b8.js",
+    "static/js/453.7871cd21.chunk.js": "/Subramani-Associates/static/js/453.7871cd21.chunk.js",
+    "index.html": "/Subramani-Associates/index.html",
+    "main.72a4491f.css.map": "/Subramani-Associates/static/css/main.72a4491f.css.map",
+    "main.78e219b8.js.map": "/Subramani-Associates/static/js/main.78e219b8.js.map",
+    "453.7871cd21.chunk.js.map": "/Subramani-Associates/static/js/453.7871cd21.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72a4491f.css",
+    "static/js/main.78e219b8.js"
+  ]
+}
