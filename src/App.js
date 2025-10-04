@@ -300,141 +300,157 @@ function App() {
           </div>
         </div>
       </section>
-
- {/* Services Section */}
-<section id="services" className="section services" ref={servicesRef}>
+{/* ======================= Services Section ======================= */}
+<section id="services" className="services-section">
   <div className="container">
-    <h2 className="section-title">Our Services</h2>
-    <div className="services-cards">
+    <h2 className="services-title">Our Services</h2>
+
+    <div className="services-grid">
 
       {/* Financial Auditing */}
       <div className="service-card">
-        <div className="service-icon">
-          <i className="fas fa-file-invoice-dollar"></i>
+        <div className="service-card-icon">
+     <i className="fas fa-indian-rupee-sign"></i>
+
         </div>
-        <h3>Financial Auditing</h3>
-        <p>Detailed analysis and verification of financial statements with precision and expertise.</p>
-        <ul>
-		<li><i className="fas fa-check"></i> Accounting & Bookkeeping</li>
-          <li><i className="fas fa-check"></i> Financial Statement Review</li>
-          <li><i className="fas fa-check"></i> Transaction Verification</li>
-          <li><i className="fas fa-check"></i> Asset Valuation</li>
+        <h3 className="service-card-title">Financial Auditing</h3>
+        <p className="service-card-desc">
+          Detailed analysis and verification of financial statements with precision and expertise.
+        </p>
+        <ul className="service-card-list">
+          <li>Accounting & Bookkeeping</li>
+          <li>Financial Statement Review</li>
+          <li>Transaction Verification</li>
+          <li>Asset Valuation</li>
         </ul>
       </div>
-	   {/* Income Tax */}
+
+      {/* Income Tax */}
       <div className="service-card">
-        <div className="service-icon">
+        <div className="service-card-icon">
           <i className="fas fa-receipt"></i>
         </div>
-        <h3>Income Tax</h3>
-        <p>Complete income tax filing and planning services.</p>
-        <ul>
-          <li><i className="fas fa-check"></i> Income Tax Filing</li>
-          <li><i className="fas fa-check"></i> Tax Planning</li>
+        <h3 className="service-card-title">Income Tax</h3>
+        <p className="service-card-desc">
+          Complete income tax filing and planning services.
+        </p>
+        <ul className="service-card-list">
+          <li>Income Tax Filing</li>
+          <li>Tax Planning</li>
         </ul>
       </div>
 
       {/* GST Filing */}
       <div className="service-card">
-        <div className="service-icon">
+        <div className="service-card-icon">
           <i className="fas fa-file-invoice"></i>
         </div>
-        <h3>GST Filing</h3>
-        <p>Hassle-free GST registration, filing, and compliance services.</p>
-        <ul>
-          <li><i className="fas fa-check"></i> GST Registration</li>
-          <li><i className="fas fa-check"></i> Monthly/Quarterly Filing</li>
-          <li><i className="fas fa-check"></i> GST Compliance</li>
+        <h3 className="service-card-title">GST Filing</h3>
+        <p className="service-card-desc">
+          Hassle-free GST registration, filing, and compliance services.
+        </p>
+        <ul className="service-card-list">
+          <li>GST Registration</li>
+          <li>Monthly/Quarterly Filing</li>
+          <li>GST Compliance</li>
         </ul>
       </div>
 
-
-      
-
-     
       {/* TDS Management */}
       <div className="service-card">
-        <div className="service-icon">
+        <div className="service-card-icon">
           <i className="fas fa-percentage"></i>
         </div>
-        <h3>TDS Management</h3>
-        <p>Comprehensive TDS return filing and management services.</p>
-        <ul>
-          <li><i className="fas fa-check"></i> TDS Filing</li>
-          <li><i className="fas fa-check"></i> Deduction Management</li>
-          <li><i className="fas fa-check"></i> Compliance Support</li>
+        <h3 className="service-card-title">TDS Management</h3>
+        <p className="service-card-desc">
+          Comprehensive TDS return filing and management services.
+        </p>
+        <ul className="service-card-list">
+          <li>TDS Filing</li>
+          <li>Deduction Management</li>
+          <li>Compliance Support</li>
         </ul>
       </div>
 
       {/* Project Reports */}
       <div className="service-card">
-        <div className="service-icon">
+        <div className="service-card-icon">
           <i className="fas fa-file-contract"></i>
         </div>
-        <h3>Project Reports</h3>
-        <p>Professional documentation and preparation of project reports.</p>
-        <ul>
-          <li><i className="fas fa-check"></i> Detailed Project Report Preparation</li>
-          <li><i className="fas fa-check"></i> Feasibility Analysis</li>
-          <li><i className="fas fa-check"></i> Financial Projections</li>
+        <h3 className="service-card-title">Project Reports</h3>
+        <p className="service-card-desc">
+          Professional documentation and preparation of project reports.
+        </p>
+        <ul className="service-card-list">
+          <li>Detailed Project Report Preparation</li>
+          <li>Feasibility Analysis</li>
+          <li>Financial Projections</li>
         </ul>
       </div>
 
       {/* Bank Loans */}
       <div className="service-card">
-        <div className="service-icon">
+        <div className="service-card-icon">
           <i className="fas fa-university"></i>
         </div>
-        <h3>Bank Loans</h3>
-        <p>Assistance in obtaining business and personal loans with proper guidance.</p>
-        <ul>
-          <li><i className="fas fa-check"></i> Loan Consultation</li>
-          <li><i className="fas fa-check"></i> Documentation Support</li>
-          <li><i className="fas fa-check"></i> Bank Coordination</li>
+        <h3 className="service-card-title">Bank Loans</h3>
+        <p className="service-card-desc">
+          Assistance in obtaining business and personal loans with proper guidance.
+        </p>
+        <ul className="service-card-list">
+          <li>Loan Consultation</li>
+          <li>Documentation Support</li>
+          <li>Bank Coordination</li>
         </ul>
       </div>
 
       {/* Registration Services */}
       <div className="service-card">
-        <div className="service-icon">
+        <div className="service-card-icon">
           <i className="fas fa-id-card"></i>
         </div>
-        <h3>Registration Services</h3>
-        <p>Complete documentation and registration services for businesses.</p>
-        <ul>
-		     <li><i className="fas fa-check"></i> Company Registration</li>
-			 <li><i className="fas fa-check"></i> Partnership Deed Registration</li>	
-          <li><i className="fas fa-check"></i> New PAN and TAN Registration</li>
-          <li><i className="fas fa-check"></i> MSME Registration</li>
-		  <li><i className="fas fa-check"></i> ESI & PF Registration</li>
-
+        <h3 className="service-card-title">Registration Services</h3>
+        <p className="service-card-desc">
+          Complete documentation and registration services for businesses.
+        </p>
+        <ul className="service-card-list">
+          <li>Company Registration</li>
+          <li>Partnership Deed Registration</li>
+          <li>New PAN and TAN Registration</li>
+          <li>MSME Registration</li>
+          <li>ESI & PF Registration</li>
         </ul>
       </div>
-	  {/* Compliance Check */}
+
+      {/* Compliance Check */}
       <div className="service-card">
-        <div className="service-icon">
+        <div className="service-card-icon">
           <i className="fas fa-shield-alt"></i>
         </div>
-        <h3>Compliance Check</h3>
-        <p>Ensure your business meets regulatory and statutory requirements seamlessly.</p>
-        <ul>
-          <li><i className="fas fa-check"></i> Regulatory Compliance</li>
-          <li><i className="fas fa-check"></i> Policy Assessment</li>
-          <li><i className="fas fa-check"></i> Documentation Review</li>
+        <h3 className="service-card-title">Compliance Check</h3>
+        <p className="service-card-desc">
+          Ensure your business meets regulatory and statutory requirements seamlessly.
+        </p>
+        <ul className="service-card-list">
+          <li>Regulatory Compliance</li>
+          <li>Policy Assessment</li>
+          <li>Documentation Review</li>
         </ul>
       </div>
 
       {/* Risk Assessment */}
       <div className="service-card">
-        <div className="service-icon">
+        <div className="service-card-icon">
           <i className="fas fa-exclamation-triangle"></i>
         </div>
-        <h3>Risk Assessment</h3>
-        <p>Identify and mitigate financial risks effectively with proactive strategies.</p>
-        <ul>
-          <li><i className="fas fa-check"></i> Risk Analysis</li>
-          <li><i className="fas fa-check"></i> Mitigation Planning</li>
-          <li><i className="fas fa-check"></i> Continuous Monitoring</li>
+        <h3 className="service-card-title">Risk Assessment</h3>
+        <p className="service-card-desc">
+          Identify and mitigate financial risks effectively with proactive strategies.
+        </p>
+        <ul className="service-card-list">
+          <li>Risk Analysis</li>
+          <li>Mitigation Planning</li>
+          <li>Continuous Monitoring</li>
         </ul>
       </div>
 
