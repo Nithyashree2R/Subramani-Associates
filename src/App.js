@@ -301,53 +301,6 @@ function App() {
         </div>
       </section>
 
-      {/* Rest of your components remain the same */}
-      {/* About Section */}
-      <section id="about" className="section about" ref={aboutRef}>
-        <div className="container">
-          <h2 className="section-title">About Us</h2>
-          <div className="about-content">
-            <div className="about-text">
-              <p>
-                <i className="fas fa-star"></i> <strong>Subramani Associates</strong> is a premier auditing and financial services firm with over 15 years of experience in providing comprehensive business solutions. We specialize in delivering expert auditing, taxation, and financial consulting services tailored to meet the unique needs of each client.
-              </p>
-              <p>
-                <i className="fas fa-star"></i> Our team of certified professionals is committed to ensuring financial accuracy, regulatory compliance, and business growth for organizations of all sizes. We pride ourselves on building long-term relationships with our clients based on trust, integrity, and exceptional service delivery.
-              </p>
-              <p>
-                <i className="fas fa-star"></i> Located in the heart of the business district, we serve clients across various industries with personalized attention and innovative solutions that drive success and sustainability.
-              </p>
-            </div>
-            
-            <div className="about-stats">
-              <div className="stats">
-                <div className="stat">
-                  <i className="fas fa-users"></i>
-                  <h3>200+</h3>
-                  <p>Happy Clients</p>
-                </div>
-                <div className="stat">
-                  <i className="fas fa-chart-bar"></i>
-                  <h3>99%</h3>
-                  <p>Success Rate</p>
-                </div>
-                <div className="stat">
-                  <i className="fas fa-award"></i>
-                  <h3>15+</h3>
-                  <p>Years Experience</p>
-                </div>
-                <div className="stat">
-                  <i className="fas fa-check-circle"></i>
-                  <h3>500+</h3>
-                  <p>Projects Completed</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      
  {/* Services Section */}
 <section id="services" className="section services" ref={servicesRef}>
   <div className="container">
@@ -488,6 +441,55 @@ function App() {
     </div>
   </div>
 </section>
+
+      {/* Rest of your components remain the same */}
+      {/* About Section */}
+      <section id="about" className="section about" ref={aboutRef}>
+        <div className="container">
+          <h2 className="section-title">About Us</h2>
+          <div className="about-content">
+            <div className="about-text">
+              <p>
+                <i className="fas fa-star"></i> <strong>Subramani Associates</strong> is a premier auditing and financial services firm with over 15 years of experience in providing comprehensive business solutions. We specialize in delivering expert auditing, taxation, and financial consulting services tailored to meet the unique needs of each client.
+              </p>
+              <p>
+                <i className="fas fa-star"></i> Our team of certified professionals is committed to ensuring financial accuracy, regulatory compliance, and business growth for organizations of all sizes. We pride ourselves on building long-term relationships with our clients based on trust, integrity, and exceptional service delivery.
+              </p>
+              <p>
+                <i className="fas fa-star"></i> Located in the heart of the business district, we serve clients across various industries with personalized attention and innovative solutions that drive success and sustainability.
+              </p>
+            </div>
+            
+            <div className="about-stats">
+              <div className="stats">
+                <div className="stat">
+                  <i className="fas fa-users"></i>
+                  <h3>200+</h3>
+                  <p>Happy Clients</p>
+                </div>
+                <div className="stat">
+                  <i className="fas fa-chart-bar"></i>
+                  <h3>99%</h3>
+                  <p>Success Rate</p>
+                </div>
+                <div className="stat">
+                  <i className="fas fa-award"></i>
+                  <h3>15+</h3>
+                  <p>Years Experience</p>
+                </div>
+                <div className="stat">
+                  <i className="fas fa-check-circle"></i>
+                  <h3>500+</h3>
+                  <p>Projects Completed</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+
 
 
 {/* Location Section */}
